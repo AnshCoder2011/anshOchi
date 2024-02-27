@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+main .page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+main .page1 img {
+    padding: 80px;
+}
+
+main .page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+main .page2 h1 {
+    padding: 4.70rem 4rem;
+    font-size: 55px;
+    color: #212121;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d8d7d7;
+}
